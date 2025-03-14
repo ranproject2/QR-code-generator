@@ -1,1 +1,25 @@
+Below are some common dependencies used in a QR Code Generator project, along with explanations of their roles:
 
+1. qrcode
+* The main library used to create QR codes.
+* It provides functions to generate, style, and save QR codes as images.
+* Requires Pillow for image handling.
+Installation: pip install qrcode[pil]
+
+2. Pillow
+* A popular Python library for working with images.
+* Helps in saving and modifying QR code images (PNG, JPG, etc.).
+* Required by the qrcode library.
+Installation: pip install pillow
+
+3. tkinter (Optional - for GUI apps)
+* A built-in Python library for creating graphical user interfaces.
+* Used if the project has a GUI for user input and displaying QR codes.
+* No installation needed (included with Python).
+
+For easy installation:
+qrcode[pil]
+pillow
+
+To install all dependencies at once, run:
+pip install -r requirements.txt
